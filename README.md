@@ -7,12 +7,19 @@ This is a transnational data set which contains all the transactions occurring b
 
 # Column Descriptors
 InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation.
+
 StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
+
 Description: Product (item) name. Nominal.
+
 Quantity: The quantities of each product (item) per transaction. Numeric.
+
 InvoiceDate: Invice Date and time. Numeric, the day and time when each transaction was generated.
+
 UnitPrice: Unit price. Numeric, Product price per unit in sterling.
+
 CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
+
 Country: Country name. Nominal, the name of the country where each customer resides.
 
 # Acknowledgements
@@ -26,8 +33,11 @@ and
 
 # Relevant Papers:
 The evolution of direct, data and digital marketing, Richard Webber, Journal of Direct, Data and Digital Marketing Practice (2013) 14, 291â€“309.
+
 Clustering Experiments on Big Transaction Data for Market Segmentation,
+
 Ashishkumar Singh, Grace Rumantir, Annie South, Blair Bethwaite, Proceedings of the 2014 International Conference on Big Data Science and Computing.
+
 A decision-making framework for precision marketing, Zhen You, Yain-Whar Si, Defu Zhang, XiangXiang Zeng, Stephen C.H. Leung c, Tao Li, Expert Systems with Applications, 42 (2015) 3357â€“3367.
 
 # Citation Request:
